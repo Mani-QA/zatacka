@@ -10,7 +10,7 @@
 -- PGLite fallback automatically on startup, so dev matches production. Applied
 -- files are recorded by name in `_migrations` and NEVER run again.
 --
--- Put YOUR app's schema in NEW ordered files (0002_*.sql, 0003_*.sql, \u2026), never
+-- Put YOUR app's schema in NEW ordered files (0002_*.sql, 0003_*.sql, …), never
 -- in this one. For app tables, prefer snake_case and give per-user tables a
 -- `user_id TEXT NOT NULL` column (TEXT, not UUID — the preview dev user id is
 -- the string 'dev-user'), then scope every query to the authenticated user
